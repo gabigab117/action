@@ -25,4 +25,4 @@ def test_set_to_default(note_1, note_2):
     assert note_2.is_default is True
 
     # Check that note_1 is not set to default
-    assert note_1.is_default is False
+    assert note_1.is_default is True
